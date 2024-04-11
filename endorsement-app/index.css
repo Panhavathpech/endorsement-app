@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924; 
+    font-family: "Sintony", sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+    box-sizing: border-box;
+
+}
+
+input {
+    color: white;
+    width: 47%;
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    text-align: center;
+    font-family: "Sintony", sans-serif;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    height: 61px;
+    border-radius: 8px;
+    background-color: #28A9F1;
+    border: none;
+    font-size: 22px;
+    font-family: "Sintony", sans-serif;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+button:hover {
+    background-color: #5BBCFF;
+    cursor: pointer;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+#message-el {
+    height: 118px;
+    border: none;
+    border-radius: 8px;
+    background-color: #444059;
+    padding: 10px 10px;
+    color: white;
+    font-family: "Sintony", sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li {
+    color: black;
+    background-color: white;
+    padding: 15px;
+    margin: 6px 0;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
